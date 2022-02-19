@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Add a default marker to a web map</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+    type="text/css"
+  />
+<style>
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1Ijoia2lzaG9yZWhhcnNoYW4iLCJhIjoiY2t5ZWkxMTQyMGZ0ZTJvcWhzMzNsb3RucSJ9.QeWIDURuBa7iXViFaDtQww';
+const map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+center: [12.550343, 55.665957],
+zoom:8
+});
+ 
+// Create a default Marker and add it to the map.
+const marker1 = new mapboxgl.Marker()
+.setLngLat([80.278532,13.035405])
+.addTo(map);
+ 
+// Create a default Marker, colored black, rotated 45 degrees.
+const marker2 = new mapboxgl.Marker({ color: 'black', rotation: 45 })
+.setLngLat([80.279422,13.033649])
+.addTo(map);
+
+const marker3 = new mapboxgl.Marker()
+.setLngLat([80.278274,13.034098])
+.addTo(map);
+
+const marker4 = new mapboxgl.Marker()
+.setLngLat([80.279358,13.032572])
+.addTo(map);
+
+const marker5= new mapboxgl.Marker()
+.setLngLat([80.278478,13.031882])
+.addTo(map);
+
+const marker6 = new mapboxgl.Marker()
+.setLngLat([80.278660,13.031328])
+.addTo(map);
+
+const marker7 = new mapboxgl.Marker()
+.setLngLat([80.277415,13.028527])
+.addTo(map);
+
+const marker8 = new mapboxgl.Marker()
+.setLngLat([80.276997,13.025809])
+.addTo(map);
+
+const marker9 = new mapboxgl.Marker()
+.setLngLat([80.275828,13.026164])
+.addTo(map);
+
+const marker10 = new mapboxgl.Marker()
+.setLngLat([80.276375,13.026091])
+.addTo(map);
+
+const marker11 = new mapboxgl.Marker()
+.setLngLat([80.101145,13.074003])
+.addTo(map);
+
+const marker12 = new mapboxgl.Marker()
+.setLngLat([80.101145,13.074003])
+.addTo(map);
+
+const marker13 = new mapboxgl.Marker()
+.setLngLat([80.278564,13.034882])
+.addTo(map);
+
+const marker14 = new mapboxgl.Marker()
+.setLngLat([80.279165,13.035520])
+.addTo(map);
+
+const marker15 = new mapboxgl.Marker()
+.setLngLat([80.276193,13.026833])
+.addTo(map);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+const marker1 = new mapboxgl.Marker()
+.setLngLat([80.278532,13.035405])
+.addTo(map);
+ 
+const marker2 = new mapboxgl.Marker({ color: 'black', rotation: 45 })
+.setLngLat([80.279422,13.033649])
+.addTo(map);
+
+const marker3 = new mapboxgl.Marker()
+.setLngLat([80.278274,13.034098])
+.addTo(map);
+
+const marker4 = new mapboxgl.Marker()
+.setLngLat([80.279358,13.032572])
+.addTo(map);
+
+const marker5= new mapboxgl.Marker()
+.setLngLat([80.278478,13.031882])
+.addTo(map);
+
+const marker6 = new mapboxgl.Marker()
+.setLngLat([80.278660,13.031328])
+.addTo(map);
+
+const marker7 = new mapboxgl.Marker()
+.setLngLat([80.277415,13.028527])
+.addTo(map);
+
+const marker8 = new mapboxgl.Marker()
+.setLngLat([80.276997,13.025809])
+.addTo(map);
+
+const marker9 = new mapboxgl.Marker()
+.setLngLat([80.275828,13.026164])
+.addTo(map);
+
+const marker10 = new mapboxgl.Marker()
+.setLngLat([80.276375,13.026091])
+.addTo(map);
+
+const marker11 = new mapboxgl.Marker()
+.setLngLat([80.101145,13.074003])
+.addTo(map);
+
+const marker12 = new mapboxgl.Marker()
+.setLngLat([80.101145,13.074003])
+.addTo(map);
+
+const marker13 = new mapboxgl.Marker()
+.setLngLat([80.278564,13.034882])
+.addTo(map);
+
+const marker14 = new mapboxgl.Marker()
+.setLngLat([80.279165,13.035520])
+.addTo(map);
+
+const marker15 = new mapboxgl.Marker()
+.setLngLat([80.276193,13.026833])
+.addTo(map);
